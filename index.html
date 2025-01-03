@@ -13,7 +13,7 @@
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
     <base href="https://emadabdelhamied.github.io/Quattro/">
-    <meta name="google-signin-client_id" content="YOUR_AUTH_CLIENT_ID">
+    <!-- <meta name="google-signin-client_id" content="YOUR_AUTH_CLIENT_ID"> -->
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
     <meta name="description" content="Quattro.">
@@ -46,7 +46,8 @@
 <body>
 
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_MAP_KEY_HERE&callback=Function.prototype"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcr56ZxhkvdYntPYfiUmPruGo8kt4eqWk&callback=Function.prototype"></script>
 
     <script type="application/javascript" src="/assets/packages/flutter_inappwebview_web/assets/web/web_support.js"
         defer></script>
@@ -59,7 +60,7 @@
                 navigator.serviceWorker.register("/firebase-messaging-sw.js");
             });
             window.addEventListener('flutter-first-frame', function () {
-                navigator.serviceWorker.register('flutter_service_worker.js?v=1181960738');
+                navigator.serviceWorker.register('flutter_service_worker.js?v=3842043143');
             });
         }
     </script>
